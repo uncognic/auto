@@ -42,3 +42,13 @@ cd yay
 makepkg -si
 
 yay -S google-chrome spotify visual-studio-code-bin pfetch-rs vesktop-bin heroic-games-launcher-bin
+
+sudo chsh -s /usr/bin/zsh
+
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+cp -i .zshrc ~/.zshrc
+
+
+
