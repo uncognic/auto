@@ -45,6 +45,10 @@ yay -S google-chrome spotify visual-studio-code-bin pfetch-rs vesktop-bin heroic
 
 sudo chsh -s /usr/bin/zsh
 
+wget https://github.com/ryanoasis/nerd-fonts/blob/c09f4c09b97bce8978c4c3104c4bbb5b7549228b/patched-fonts/NerdFontsSymbolsOnly/SymbolsNerdFontMono-Regular.ttf
+wget https://github.com/ryanoasis/nerd-fonts/blob/c09f4c09b97bce8978c4c3104c4bbb5b7549228b/patched-fonts/NerdFontsSymbolsOnly/SymbolsNerdFont-Regular.ttf
+mkdir ~/.fonts
+cp SymbolsNerdFontMono-Regular.ttf ~/.fonts && cp SymbolsNerdFont-Regular.ttf ~/.fonts
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
