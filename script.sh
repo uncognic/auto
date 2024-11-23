@@ -33,7 +33,7 @@ echo "Configuration updated."
 systemctl restart systemd-zram-setup@zram0.service
 
 
-sudo pacman -S fastfetch neofetch zsh timeshift firefox noto-fonts-cjk spectacle flatpak libreoffice-fresh kdenlive kvantum grub-btrfs mpv elisa virt-manager prismlauncher steam git zip unzip cmatrix cryfs enfs gocryptfs kdeconnect gwenview gparted partitionmanager jre17-openjdk jre21-openjdk jre8-openjdk kclock kolourpaint krita vlc power-profiles-daemon qbittorrent unrar zsh-autosuggestions wine
+sudo pacman -S fastfetch neofetch zsh timeshift firefox noto-fonts-cjk spectacle flatpak libreoffice-fresh kdenlive kvantum grub-btrfs mpv elisa virt-manager prismlauncher steam git zip unzip cmatrix cryfs enfs gocryptfs kdeconnect gwenview gparted partitionmanager jre17-openjdk jre21-openjdk jre8-openjdk kclock kolourpaint krita vlc power-profiles-daemon qbittorrent unrar zsh-autosuggestions wine qemu-full
 
 git clone https://aur.archlinux.org/yay.git
 
